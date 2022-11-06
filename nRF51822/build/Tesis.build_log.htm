@@ -1,0 +1,244 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: David Alejanro Arévalo Suárez, Universidad Sergio Arboleda , LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DARMCM1.DLL V1.14.0.0
+Target DLL:      CMSIS_AGDI.dll V1.26.5.0
+Dialog DLL:      TARMCM1.DLL V1.10.0.0
+ 
+<h2>Project:</h2>
+C:\Users\david.DESKTOP-GFO7C5Q\Dropbox\Red Monitoreo Polución V2\Version 1\JuanParra\Desarrollo final\Tutorial Ble\Tesis\Tesis.uvproj
+Project File Date:  12/14/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'nRF51822AA'
+compiling app_gpiote.c...
+compiling hci_mem_pool.c...
+compiling bootloader_util_arm.c...
+compiling app_scheduler.c...
+compiling BLEDevice.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+BLE_API/public/GattCharacteristicWriteCBParams.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif /*__GATT_CHARACTERISTIC_WRITE_CB_PARAMS_H__*/
+BLE_API/public/FunctionPointerWithContext.h(129): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef MBED_FUNCTIONPOINTER_WITH_CONTEXT_H
+BLE_API/public/CallChainOfFunctionPointersWithContext.h(149): warning:  #1-D: last line of file ends without a newline
+  #endif
+BLE_API/common/BLEDeviceInstanceBase.h(47): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef __BLE_DEVICE_INSTANCE_BASE__
+BLE_API/common/BLEDevice.cpp: 5 warnings, 0 errors
+compiling dfu_app_handler.c...
+compiling GapAdvertisingData.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+BLE_API/common/GapAdvertisingData.cpp: 1 warning, 0 errors
+compiling main.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+BLE_API/public/GattCharacteristicWriteCBParams.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif /*__GATT_CHARACTERISTIC_WRITE_CB_PARAMS_H__*/
+BLE_API/public/FunctionPointerWithContext.h(129): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef MBED_FUNCTIONPOINTER_WITH_CONTEXT_H
+BLE_API/public/CallChainOfFunctionPointersWithContext.h(149): warning:  #1-D: last line of file ends without a newline
+  #endif
+BLE_API/common/BLEDeviceInstanceBase.h(47): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef __BLE_DEVICE_INSTANCE_BASE__
+BLE_API/services/UARTService.h(193): warning:  #1-D: last line of file ends without a newline
+  #endif /* #ifndef __BLE_UART_SERVICE_H__*/
+main.cpp(138): warning:  #940-D: missing return statement at end of non-void function "sensor"
+  }
+main.cpp(159): warning:  #940-D: missing return statement at end of non-void function "sensor1"
+  }
+main.cpp(180): warning:  #940-D: missing return statement at end of non-void function "sensor2"
+  }
+main.cpp(201): warning:  #940-D: missing return statement at end of non-void function "sensor3"
+  }
+main.cpp(222): warning:  #940-D: missing return statement at end of non-void function "sensor4"
+  }
+main.cpp(235): warning:  #9-D: nested comment is not allowed
+      /*m_analog_in_value4 = sensor4();*/
+main.cpp(311): warning:  #177-D: variable "rx_buf" was declared but never referenced
+  static uint8_t rx_buf[20];
+main.cpp(312): warning:  #177-D: variable "rx_len" was declared but never referenced
+  static uint8_t rx_len=0;
+main.cpp: 14 warnings, 0 errors
+compiling GapAdvertisingParams.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+BLE_API/common/GapAdvertisingParams.cpp: 1 warning, 0 errors
+compiling GattService.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+BLE_API/public/GattCharacteristicWriteCBParams.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif /*__GATT_CHARACTERISTIC_WRITE_CB_PARAMS_H__*/
+BLE_API/public/FunctionPointerWithContext.h(129): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef MBED_FUNCTIONPOINTER_WITH_CONTEXT_H
+BLE_API/common/GattService.cpp: 3 warnings, 0 errors
+compiling DFUService.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+BLE_API/public/GattCharacteristicWriteCBParams.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif /*__GATT_CHARACTERISTIC_WRITE_CB_PARAMS_H__*/
+BLE_API/public/FunctionPointerWithContext.h(129): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef MBED_FUNCTIONPOINTER_WITH_CONTEXT_H
+BLE_API/public/CallChainOfFunctionPointersWithContext.h(149): warning:  #1-D: last line of file ends without a newline
+  #endif
+BLE_API/common/BLEDeviceInstanceBase.h(47): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef __BLE_DEVICE_INSTANCE_BASE__
+BLE_API/services/DFUService.h(133): warning:  #1-D: last line of file ends without a newline
+  #endif /* #ifndef __BLE_DFU_SERVICE_H__*/
+BLE_API/services/DFUService.cpp(40): warning:  #1-D: last line of file ends without a newline
+  DFUService::ResetPrepare_t DFUService::handoverCallback = NULL;
+BLE_API/services/DFUService.cpp: 7 warnings, 0 errors
+compiling UUID.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+BLE_API/common/UUID.cpp: 1 warning, 0 errors
+compiling UARTService.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+BLE_API/public/GattCharacteristicWriteCBParams.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif /*__GATT_CHARACTERISTIC_WRITE_CB_PARAMS_H__*/
+BLE_API/public/FunctionPointerWithContext.h(129): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef MBED_FUNCTIONPOINTER_WITH_CONTEXT_H
+BLE_API/public/CallChainOfFunctionPointersWithContext.h(149): warning:  #1-D: last line of file ends without a newline
+  #endif
+BLE_API/common/BLEDeviceInstanceBase.h(47): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef __BLE_DEVICE_INSTANCE_BASE__
+BLE_API/services/UARTService.h(193): warning:  #1-D: last line of file ends without a newline
+  #endif /* #ifndef __BLE_UART_SERVICE_H__*/
+BLE_API/services/UARTService.cpp(41): warning:  #1-D: last line of file ends without a newline
+  };
+BLE_API/services/UARTService.cpp: 7 warnings, 0 errors
+compiling nRF51Gap.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+nRF51822/nRF51Gap.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef __NRF51822_GAP_H__
+nRF51822/nRF51Gap.cpp(375): warning:  #1-D: last line of file ends without a newline
+  }
+nRF51822/nRF51Gap.cpp: 3 warnings, 0 errors
+compiling nRF51822n.cpp...
+nRF51822/nRF51822n.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+BLE_API/public/GattCharacteristicWriteCBParams.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif /*__GATT_CHARACTERISTIC_WRITE_CB_PARAMS_H__*/
+BLE_API/public/FunctionPointerWithContext.h(129): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef MBED_FUNCTIONPOINTER_WITH_CONTEXT_H
+BLE_API/public/CallChainOfFunctionPointersWithContext.h(149): warning:  #1-D: last line of file ends without a newline
+  #endif
+BLE_API/common/BLEDeviceInstanceBase.h(47): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef __BLE_DEVICE_INSTANCE_BASE__
+nRF51822/nRF51Gap.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef __NRF51822_GAP_H__
+nRF51822/nRF51GattServer.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef __NRF51822_GATT_SERVER_H__
+nRF51822/nRF51822n.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+nRF51822/nRF51822n.cpp(113): warning:  #1-D: last line of file ends without a newline
+  }
+nRF51822/nRF51822n.cpp: 9 warnings, 0 errors
+compiling btle_advertising.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+nRF51822/btle/btle_advertising.cpp: 1 warning, 0 errors
+compiling nRF51GattServer.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+BLE_API/public/GattCharacteristicWriteCBParams.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif /*__GATT_CHARACTERISTIC_WRITE_CB_PARAMS_H__*/
+BLE_API/public/FunctionPointerWithContext.h(129): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef MBED_FUNCTIONPOINTER_WITH_CONTEXT_H
+BLE_API/public/CallChainOfFunctionPointersWithContext.h(149): warning:  #1-D: last line of file ends without a newline
+  #endif
+nRF51822/nRF51GattServer.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef __NRF51822_GATT_SERVER_H__
+nRF51822/btle/custom/custom_helper.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef _CUSTOM_HELPER_H_
+nRF51822/nRF51Gap.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef __NRF51822_GAP_H__
+nRF51822/nRF51GattServer.cpp(363): warning:  #1-D: last line of file ends without a newline
+  }
+nRF51822/nRF51GattServer.cpp: 8 warnings, 0 errors
+compiling btle.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+nRF51822/btle/custom/custom_helper.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef _CUSTOM_HELPER_H_
+nRF51822\nRF51Gap.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef __NRF51822_GAP_H__
+BLE_API/public/GattCharacteristicWriteCBParams.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif /*__GATT_CHARACTERISTIC_WRITE_CB_PARAMS_H__*/
+BLE_API/public/FunctionPointerWithContext.h(129): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef MBED_FUNCTIONPOINTER_WITH_CONTEXT_H
+BLE_API/public/CallChainOfFunctionPointersWithContext.h(149): warning:  #1-D: last line of file ends without a newline
+  #endif
+nRF51822\nRF51GattServer.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef __NRF51822_GATT_SERVER_H__
+nRF51822/btle/btle.cpp(285): warning:  #1-D: last line of file ends without a newline
+  }
+nRF51822/btle/btle.cpp: 8 warnings, 0 errors
+compiling btle_gap.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+nRF51822/btle/btle_gap.cpp: 1 warning, 0 errors
+compiling custom_helper.cpp...
+BLE_API/common/blecommon.h(20): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+nRF51822/btle/custom/custom_helper.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif // ifndef _CUSTOM_HELPER_H_
+nRF51822/btle/custom/custom_helper.cpp(297): warning:  #1-D: last line of file ends without a newline
+  }
+nRF51822/btle/custom/custom_helper.cpp: 3 warnings, 0 errors
+compiling crc16.cpp...
+compiling pstorage.cpp...
+compiling ble_advdata.cpp...
+nRF51822/nordic/nordic_global.h(21): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+nRF51822/nordic/ble/ble_advdata.cpp: 1 warning, 0 errors
+compiling ble_advdata_parser.cpp...
+compiling softdevice_handler.cpp...
+nRF51822/nordic/nordic_global.h(21): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+nRF51822/nordic/softdevice_handler.cpp: 1 warning, 0 errors
+compiling ble_bondmngr.cpp...
+compiling ble_conn_params.cpp...
+nRF51822/nordic/nordic_global.h(21): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+nRF51822/nordic/ble/ble_conn_params.cpp: 1 warning, 0 errors
+compiling ble_srv_common.cpp...
+nRF51822/nordic/nordic_global.h(21): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+nRF51822/nordic/ble/ble_services/ble_srv_common.cpp: 1 warning, 0 errors
+compiling ble_debug_assert_handler.cpp...
+nRF51822/nordic/nordic_global.h(21): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+nRF51822/nordic/ble/ble_debug_assert_handler.cpp: 1 warning, 0 errors
+compiling ble_error_log.cpp...
+nRF51822/nordic/nordic_global.h(21): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+nRF51822/nordic/ble/ble_error_log.cpp: 1 warning, 0 errors
+linking...
+Program Size: Code=27668 RO-data=2232 RW-data=312 ZI-data=1636  
+FromELF: creating hex file...
+".\build\Tesis.axf" - 0 Error(s), 78 Warning(s).
+Build Time Elapsed:  00:00:34
+</pre>
+</body>
+</html>

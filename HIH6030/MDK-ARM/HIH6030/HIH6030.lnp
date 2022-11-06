@@ -1,0 +1,27 @@
+--cpu Cortex-M4.fp
+"hih6030\system_stm32f4xx.o"
+"hih6030\main.o"
+"hih6030\stm32f4xx_hal_msp.o"
+"hih6030\stm32f4xx_it.o"
+"hih6030\stm32f4xx_hal_dma_ex.o"
+"hih6030\stm32f4xx_hal_pwr.o"
+"hih6030\stm32f4xx_hal_uart.o"
+"hih6030\stm32f4xx_hal_rcc_ex.o"
+"hih6030\stm32f4xx_hal_pwr_ex.o"
+"hih6030\stm32f4xx_hal_tim_ex.o"
+"hih6030\stm32f4xx_hal_i2c.o"
+"hih6030\stm32f4xx_hal_flash_ramfunc.o"
+"hih6030\stm32f4xx_hal_tim.o"
+"hih6030\stm32f4xx_hal_flash_ex.o"
+"hih6030\stm32f4xx_hal_gpio.o"
+"hih6030\stm32f4xx_hal_dma.o"
+"hih6030\stm32f4xx_hal.o"
+"hih6030\stm32f4xx_hal_rcc.o"
+"hih6030\stm32f4xx_hal_cortex.o"
+"hih6030\stm32f4xx_hal_i2c_ex.o"
+"hih6030\stm32f4xx_hal_flash.o"
+"hih6030\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "HIH6030\HIH6030.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "HIH6030.map" -o HIH6030\HIH6030.axf

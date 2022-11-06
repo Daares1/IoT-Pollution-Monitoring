@@ -1,0 +1,12 @@
+.\build\gattservice.o: BLE_API/common/GattService.cpp
+.\build\gattservice.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\build\gattservice.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\build\gattservice.o: BLE_API/public/GattService.h
+.\build\gattservice.o: BLE_API/public/UUID.h
+.\build\gattservice.o: BLE_API/common/blecommon.h
+.\build\gattservice.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\gattservice.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\build\gattservice.o: BLE_API/public/GattCharacteristic.h
+.\build\gattservice.o: BLE_API/public/GattAttribute.h
+.\build\gattservice.o: BLE_API/public/GattCharacteristicWriteCBParams.h
+.\build\gattservice.o: BLE_API/public/FunctionPointerWithContext.h
